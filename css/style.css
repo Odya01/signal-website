@@ -44,6 +44,15 @@
 * {
   box-sizing: border-box;
 }
+:root{
+  --white: #FFFFFF;
+  --black: #0D0D0D;
+  --grey:#F3F3F3;
+  --greyFooter_name:#F2F2F2;
+  --greyFooter_link: #B9B9B9;
+  --red: #DC0000;
+
+}
 body{
   height: 100%;
 }
