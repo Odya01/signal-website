@@ -39,3 +39,35 @@
   src: url("../fonts/montserrat-regular-webfont.woff") format("woff"),
       url("../fonts/montserrat-regular-webfont.woff2") format("woff2");
 }
+
+/* Global Style */
+* {
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+html{
+  font-family: "Montserrat", sans-serif;
+}
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.list-reset{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* Загаловок 2 уровня */
+.videos__title{
+  margin: 0;
+
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+}
