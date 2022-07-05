@@ -40,14 +40,18 @@
 
 
   <main class="main">
-    <section class="hero">
+    <section class="hero" style="background-image: url(img/hero.png);">
       <div class="container hero__container">
         <div class="hero-content">
-          <p class="hero-content__text">Агентство Signal — услуги по креативному и техническому обеспечению мероприятий</p>
+          <!-- Незнаю как сделать точку красной надо i -->
+          <p class="hero-content__text">Агентство S<span style="color: var(--red)">i</span>gnal — услуги по креативному и техническому обеспечению мероприятий</p>
           <div class="hero-content__links">
-            <a href="tel:+" class="link__tel"><span class="link__tel_grey">+7(925)</span> 077-41-57</a>
+            <a href="tel:+" class="link__tel"><span style="color: #929292">+7(925)</span> 077-41-57</a>
             <a href="#" class="link__arrow"></a>
-            <a href="mailto:info@signal-tv.com" class="link__mail"><span class="mail-icon"></span>info@signal-tv.com</a>
+            <a href="mailto:info@signal-tv.com" class="link__mail">
+              <span class="mail-icon"></span>
+              <small class="mail_text">info@signal-tv.com</small> 
+            </a>
           </div>
         </div>
       </div>
