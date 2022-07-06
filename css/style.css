@@ -368,11 +368,11 @@ html{
 }
 .contacts__content{
   display: flex;
-  justify-content: space-between;
 }
 .form{
   display: flex;
   flex-direction: column;
+  margin-left: 81px;
 
   max-width: 257px;
 }
@@ -394,6 +394,8 @@ html{
 }
 .input-form{
   margin-bottom: 70px;
+
+  max-width: 257px;
 }
 .input-form::placeholder{
   font-weight: 400;
@@ -433,9 +435,14 @@ html{
   background-repeat: no-repeat;
   background-position: center;
 }
+.contacts__links{
+  margin-left:  auto;
+}
 .contacts__item{
   display: flex;
   flex-direction: column;
+
+  max-width: 226px;
 }
 .contacts__item:not(:last-child){
   margin-bottom: 45px;
