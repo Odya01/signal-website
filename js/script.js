@@ -15,3 +15,15 @@ function init(){
 
 	myMap.geoObjects.add(myPlacemark); 
 }
+
+// Swiper
+var swiper = new Swiper(".swiper-container", {
+	slidesPerView: 2,
+  centeredSlides: true,
+  spaceBetween: 30,
+  grabCursor: true,
+	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+});
