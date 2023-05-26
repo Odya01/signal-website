@@ -23,24 +23,28 @@
       <div class="header__inner">
         <nav>
           <ul class="nav__list list-reset">
-            <li class="nav__item"><a href="#" class="nav__links">О нас</a></li>
-            <li class="nav__item"><a href="#" class="nav__links">Ролики</a></li>
-            <li class="nav__item"><a href="#" class="nav__links">Услуги</a></li>
-            <li class="nav__item"><a href="#" class="nav__links">Партнеры</a></li>
-            <li class="nav__item"><a href="#" class="nav__links">Контакты</a></li>
+            <li class="nav__item"><a href="#main" class="nav__links">О нас</a></li>
+            <li class="nav__item"><a href="#videos" class="nav__links">Ролики</a></li>
+            <li class="nav__item"><a href="#services" class="nav__links">Услуги</a></li>
+            <li class="nav__item"><a href="#partners" class="nav__links">Партнеры</a></li>
+            <li class="nav__item"><a href="#contacts" class="nav__links">Контакты</a></li>
           </ul>
         </nav>
       </div>
 
       <a class="logo header__logo-circle" href="#">
-        <img src="img/right-logo.png" alt="Signal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none">
+          <circle cx="25.5" cy="25" r="25" fill="black"/>
+          <path d="M28.6962 19.6157H16.3535V32.9404H19.7889V28.6053H26.3716L29.375 32.9404H33.2218L29.9099 28.5855C30.9385 28.4256 31.679 28.0461 32.1316 27.4467C32.5841 26.8475 32.8104 25.8885 32.8104 24.61V23.6112C32.8104 22.852 32.7282 22.2527 32.5841 21.7932C32.4401 21.3337 32.1933 20.9342 31.8436 20.5746C31.4733 20.235 31.0619 19.9953 30.5682 19.8355C30.0744 19.6956 29.4572 19.6157 28.6962 19.6157ZM28.1408 25.6688H19.7889V22.5523H28.1408C28.6139 22.5523 28.943 22.6323 29.1076 22.7721C29.2721 22.9119 29.375 23.1716 29.375 23.5512V24.67C29.375 25.0695 29.2721 25.3292 29.1076 25.469C28.943 25.6088 28.6139 25.6688 28.1408 25.6688Z" fill="white"/>
+          <path d="M36.5789 18.9514C37.8626 18.9514 38.904 17.9069 38.904 16.6185C38.904 15.3301 37.8626 14.2856 36.5789 14.2856C35.2942 14.2856 34.2528 15.3301 34.2528 16.6185C34.2528 17.9069 35.2942 18.9514 36.5789 18.9514Z" fill="#F41240"/>
+        </svg>
       </a>
     </div>
   </header>
 
 
   <main class="main">
-    <section class="hero" style="background-image: url(img/hero.png);">
+    <section class="hero" style="background-image: url(img/hero.png);" id="main">
       <div class="container hero__container">
         <div class="hero-content">
           <!-- Незнаю как сделать точку красной надо i -->
@@ -59,7 +63,7 @@
 
     <section class="videos">
       <div class="containter videos__containter">
-        <h2 class="videos__title section__heading">Ролики</h2>
+        <h2 class="videos__title section__heading" id="videos">Ролики</h2>
         <div class="swiper-container swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide" style="background-image: url(img/video_one.png);"></div> 
@@ -77,7 +81,7 @@
 
     <section class="services">
       <div class="container services__container">
-        <h2 class="services__title section__heading">Услуги</h2>
+        <h2 class="services__title section__heading" id="services">Услуги</h2>
         <div class="services__content">
           <div class="services__content_left">
 
@@ -158,7 +162,7 @@
 
     <section class="partners">
       <div class="container partners__container">
-        <h2 class="partners__title section__heading">Партнеры</h2>
+        <h2 class="partners__title section__heading" id="partners">Партнеры</h2>
 
         <div class="partners__content">
           <img src="img/partners1.png" alt="" class="partners__img">
@@ -172,7 +176,7 @@
 
     <section class="contacts">
       <div class="container contacts__container">
-        <h2 class="contacts__title section__heading">Контакты</h2>
+        <h2 class="contacts__title section__heading" id="contacts">Контакты</h2>
 
         <div class="contacts__content">
 
